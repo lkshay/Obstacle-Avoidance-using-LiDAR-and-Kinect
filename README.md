@@ -16,6 +16,8 @@ determine the closest objects and driving angle is caluclated using a PID contro
 
 This implementation runs in real-time.
 
+The prerequisites are added in the prereqs compressed folder. It contains the rplidar_ros package, openni_camera and other useful packages which will be used in running the main nodes.
+
 Please note that the sensors work individually. It is an experimentation for both sensors. No sensor fusion is used in this
 project as yet. 
 
