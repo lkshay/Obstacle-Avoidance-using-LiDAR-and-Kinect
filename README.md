@@ -1,7 +1,7 @@
 # Obstacle-Avoidance-using-LiDAR-and-Kinect
 A mapping and obstacle avoidance project using 2D LiDAR scanner and Kinect RGB-D camera 
 
-The Compressed file consists of two ROS Nodes : One for LiDAR Scanner and other for the Kinect Perception
+ROS nodes : LiDAR scanning algorithm node and for the Kinect perception node.
 
 LiDAR Node (in folder my_first) subscribes to the laser_scan message published by rplidar_ros package 
 (You will need to install it in your catkin workspace). The Node will apply a median filter to laser scan, followed by 
