@@ -10,9 +10,7 @@ to current driving direction is calculated and corresponding wheel velocities ar
 The Kinametic equations may change with respect to the dimensions of the robot.
 
 The Kinect Node, uses Openni package do publish the raw_image message in ROS. This is subscribed by the package built for Kinect
-perception. A caffe model for Google's MobileNet CNN is used for detecting objects. This is followed by a Single Shot Detector 
-Network which determines the locations of the objects in the image. Corresponding depth images from Kinect camera are used to 
-determine the closest objects and driving angle is caluclated using a PID controller. 
+perception. A caffe model for Google's MobileNet CNN is used for detecting objects. This is followed by a Single Shot Detector (SSD) Network which determines the locations of the objects in the image. Corresponding depth images from Kinect camera are used to determine the closest objects and driving angle is caluclated using a PID controller. 
 
 This implementation runs in real-time.
 
