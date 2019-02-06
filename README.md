@@ -14,6 +14,8 @@ perception. A caffe model for Google's MobileNet CNN is used for detecting objec
 Network which determines the locations of the objects in the image. Corresponding depth images from Kinect camera are used to 
 determine the closest objects and driving angle is caluclated using a PID controller. 
 
+This implementation runs in real-time.
+
 Please note that the sensors work individually. It is an experimentation for both sensors. No sensor fusion is used in the
 project as yet. 
 
