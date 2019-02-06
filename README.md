@@ -16,7 +16,7 @@ determine the closest objects and driving angle is caluclated using a PID contro
 
 This implementation runs in real-time.
 
-Please note that the sensors work individually. It is an experimentation for both sensors. No sensor fusion is used in the
+Please note that the sensors work individually. It is an experimentation for both sensors. No sensor fusion is used in this
 project as yet. 
 
 
